@@ -26,10 +26,10 @@ practicing is still valuable and will help you later on!
 ### Including an input:
 
 Working with user inputs is a common task for web developers. This project requires you to add in an input
-element and a button that, whn clicked, will take that user input and use that in the API call.
+element and a button that, when clicked, will take that user input and use that in the API call.
 
-A user should be able to enter in a keyword into the input, hit the button, and the results should display
-below. If there are no results returned, the user should be given a notice that nothing was found.
+A user should be able to enter in a keyword (such as a full or partial movie or TV show title) into the input, hit the button, and
+the results should display below. If there are no results returned, the user should be given a notice that nothing was found.
 
 A user should see at **most** 15 results below. Less is okay, but limit the number displayed.
 
