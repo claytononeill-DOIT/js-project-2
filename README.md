@@ -1,7 +1,7 @@
 # JavaScript Project 2
 
-The second JavaScript project is an extension on the first with the intention of continuing to
-expand upon the core fundamentals of web development.
+The second JavaScript project is an extension of the first project with the intention of continuing to
+expand upon the core fundamentals used in web development.
 
 This project will include fetching and displaying data from a public API using an API key, the creation
 of DOM elements, applying sorting logic to groups of objects, and additional styling updates that focus
