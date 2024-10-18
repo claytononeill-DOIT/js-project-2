@@ -41,6 +41,8 @@ The API that you will need to use for this project is the OMDb API: https://www.
 You will need to read the documentation and acquire an API key. There is a lot to learn and understand
 about how to use HTTP methods to fetch data from an API, so don't be afraid to reach out for help.
 
+Example endpoint: `http://www.omdbapi.com/?apikey='your-api-key-here'&s="lord of the rings'`
+
 There are resources out there that would be good to investigate that will allow you to test your
 API calls outside of the browser such as Postman: https://www.postman.com/. This tool may already be installed
 on your work laptop, but if not, we can work with IT to have that set up.
