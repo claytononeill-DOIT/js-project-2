@@ -28,6 +28,11 @@ practicing is still valuable and will help you later on!
 Working with user inputs is a common task for web developers. This project requires you to add in an input
 element and a button that, whn clicked, will take that user input and use that in the API call.
 
+A user should be able to enter in a keyword into the input, hit the button, and the results should display
+below. If there are no results returned, the user should be given a notice that nothing was found.
+
+A user should see at **most** 15 results below. Less is okay, but limit the number displayed.
+
 ### The API:
 
 An overview on what an API is: https://developer.mozilla.org/en-US/docs/Glossary/API
@@ -42,7 +47,22 @@ on your work laptop, but if not, we can work with IT to have that set up.
 
 ### Working with the data:
 
-The data that is returned from the API
+The data that is returned from the API should be sorted based on the `year` that the title was released.
+If there are two (or more) titles that were released on the same year, then those titles should be sorted
+in alphabetical order. Once the data is properly sorted, both the `title` and `year` should be displayed in a list.  
+There should be one `<li></li>` item for each title returned, so feel free to use whichever elements inside that parent
+list element to display the actual information.
+
+The content of the list items should not overflow out of their parent container or overlap with one another. Everything
+displayed should be contained logically in the parent container.
+
+### Adding in the new elements within the previous project 1 work:
+
+To accommodate the new elements needed for phase 2, you will have to rearrange the work completed in project 1 to the
+specifications shown in the wire frame. How you accomplish this is up to you, but read the considerations below regarding
+style rules.
+
+The containers for the project 1 content and the new content should align in height and make sense aesthetically.
 
 ## A few considerations for this project
 
@@ -52,3 +72,5 @@ The data that is returned from the API
 
 - Avoid using `positioning: absolute` to space your elements around the page. This type of styling is not
   considered a best practice, so alternative methods should be employed.
+
+# Good Luck!!
