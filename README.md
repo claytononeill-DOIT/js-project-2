@@ -9,7 +9,7 @@ on spacing and alignment, to name a few.
 
 ## The wire frame:
 
-![Wire Frame](project-2-wireframe.jpg)
+![Wire Frame](./project-2-wireframe.jpg)
 
 ## A few considerations for this project
 
