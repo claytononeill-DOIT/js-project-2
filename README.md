@@ -19,7 +19,7 @@ practicing is still valuable and will help you later on!
 
 ## The wire frame:
 
-![Wire Frame](./project-2-wireframe.jpg)
+![Wire Frame](./images/project-2-wireframe.jpg)
 
 ## Project outline and goals:
 
