@@ -1,0 +1,101 @@
+body {
+  font-family: "Libre Baskerville", "Anton";
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the header*/
+.header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Styles for the left section */
+.left {
+  padding-left: 20px;
+}
+
+/* Styles for the right section */
+.right {
+  padding-right: 20px;
+}
+
+.centerbox {
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  width: 700px;
+}
+
+.right-text-box {
+  border: 5px solid black;
+  border-radius: 25px;
+  height: 230px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 300px;
+}
+
+.image {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+
+.image img {
+  height: auto;
+  max-width: 100%;
+
+  /*ensures image fits within container*/
+}
+
+.title {
+  color: black;
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+.text {
+  color: black;
+  padding-left: 10px;
+}
+
+.button {
+  background-color: inherit;
+  border: 5px solid black;
+  border-radius: 25px;
+  bottom: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  padding: 14px 28px;
+  position: absolute;
+  right: 5px;
+}
+
+.button:hover {
+  background: solid rgb(51, 50, 50);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+a {
+  margin: 10px;
+}
