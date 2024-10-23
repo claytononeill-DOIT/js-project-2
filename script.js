@@ -1,7 +1,7 @@
 function compareDates() {
   var currentDate = new Date();
 
-  dueDate = new Date(2024, 9, 17);
+  dueDate = new Date(2024, 10, 1);
   console.log(currentDate);
   console.log(dueDate);
 
@@ -19,7 +19,7 @@ function compareDates() {
       Math.floor(diffInMin % 60) +
       " minutes, and " +
       Math.floor(diffInSec % 60) +
-      " seconds until October 17, 2024."
+      " seconds until November 1, 2024."
   );
 }
 
