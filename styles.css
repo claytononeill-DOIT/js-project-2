@@ -24,6 +24,14 @@ body {
   padding-right: 20px;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 20px;
+}
+
 .centerbox {
   flex-direction: column;
   border: 5px solid black;
@@ -86,6 +94,19 @@ body {
 
 .button:hover {
   background: solid rgb(51, 50, 50);
+}
+
+.rcontentbox {
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 25px;
+  display: flex;
+  gap: 20px;
+  height: 300px;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px;
+  width: 400px;
 }
 
 .footer {
